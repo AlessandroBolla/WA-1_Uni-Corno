@@ -1,0 +1,14 @@
+#left_sidebar a:hover{
+    background-color: #3be495;
+}
+#left_sidebar a:active{
+    background-color: #198754;
+    color:white
+}
+#left_sidebar .list-group-item.active{
+    background-color: #198754;
+    border-color: #198754;
+}
+.list-group-item{
+    background-color: transparent;
+}

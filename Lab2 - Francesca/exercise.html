@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <!-- <link rel ="stylesheet" href="style.css"> -->
+    
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-light bg-success">
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-check2-all " viewBox="0 0 16 16">
+            <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7l-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+            <path d="M5.354 7.146l.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+        </svg>
+        
+        <a class="navbar-brand text-white">ToDoManager</a>
+        </div>
+
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">    
+        </form>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+    </nav>
+    
+    <div class="container-fluid">
+    <div class="row">
+    
+        <nav id="sidebarMenu" class="col-sm-2 col-md-3 col-lg-4 d-md-block bg-light sidebar collapse h-100 position-fixed" >
+            <div class="sidebar-sticky pt-3"> 
+                <ul class="list-group list-group-flush ">
+                    <button type="button" class="list-group-item list-group-item-action bg-success text-white" aria-current="true">
+                        All
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action bg-light">Important</button>
+                    <button type="button" class="list-group-item list-group-item-action bg-light">Today</button>
+                    <button type="button" class="list-group-item list-group-item-action bg-light">Next 7 days</button>
+                    <button type="button" class="list-group-item list-group-item-action bg-light">Private</button>
+                </ul>
+            </div>
+        </nav> 
+
+        
+       
+      <main class="col-xs-12 col-sm-10' col-md-9 col-lg-8 col-12 ml-sm-auto px-md-4">
+            <h1>All</h1>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th>
+                            <input type="checkbox" >
+                        
+                             Complete Lab2
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+                            Monday 22-March
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="checkbox" >
+                       
+                            Buy some groceries
+                        </th>
+                        <th>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+                            </svg>
+                        </th>
+                        <th>
+                            Today at 14:00
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <input type="checkbox" >
+                       
+                           <span class="text-danger"> Read a good book</span> 
+                        </th>
+                        <th>
+
+                        </th>
+                        <th>
+                            
+                        </th>
+                    </tr>
+                </tbody>
+
+
+
+
+            </table>
+            <div class=" fixed-left-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="green" class=" bi bi-plus-circle-fill" viewBox="0 0 16 16" style="margin: 10;">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                  </svg>
+                    
+                </div>
+        </main>
+        
+       
+    
+     
+        
+            
+    </div>  
+    
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
